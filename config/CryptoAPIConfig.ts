@@ -2,7 +2,10 @@
 export const CRYPTO_CONFIG = {
   // WebSocket API endpoint
   WEBSOCKET_URL: 'wss://stream.binance.com:9443/ws/!ticker@arr',
-  
+
+  // Reconnection settings
+  RECONNECT_DELAY: 5000, // 5 seconds
+
   // Popular cryptocurrencies to display
   POPULAR_SYMBOLS: [
     'BTCUSDT',  // Bitcoin

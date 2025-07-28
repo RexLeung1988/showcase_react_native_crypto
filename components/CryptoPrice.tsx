@@ -69,7 +69,7 @@ const CryptoPrice: React.FC = () => {
           console.log('WebSocket disconnected');
           setIsConnected(false);
           // Attempt to reconnect after configured delay
-          setTimeout(connectWebSocket, 5000);
+          setTimeout(connectWebSocket, CRYPTO_CONFIG.RECONNECT_DELAY);
         };
       } catch (err) {
         console.error('Error creating WebSocket:', err);
