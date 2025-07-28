@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "19.1.0",
     "react-native": "0.80.2",
+    "react-native-websocket": "^1.0.2",
     "@react-native/new-app-screen": "0.80.2"
   },
   "devDependencies": {
