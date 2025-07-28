@@ -173,6 +173,11 @@ const CryptoPrice: React.FC = () => {
               </Text>
             </View>
           ))}
+          <View style={styles.footer}>
+            <Text style={[styles.footerText, {color: isDarkMode ? '#999' : '#888'}]}>
+              Data provided by Binance WebSocket API
+            </Text>
+          </View>          
         </ScrollView>
       )}
     </View>
