@@ -9,24 +9,6 @@ The app now includes a live crypto price display that:
 - Auto-reconnects if connection is lost
 - Updates prices in real-time
 
-## Prerequisites
-
-Before running this app, make sure you have the following installed:
-
-### For iOS Development:
-- **Node.js** (version 18 or higher)
-- **Xcode** (latest version from App Store)
-- **CocoaPods** (`sudo gem install cocoapods`)
-- **iOS Simulator** (comes with Xcode)
-
-### For Android Development:
-- **Node.js** (version 18 or higher)
-- **Java Development Kit (JDK)** (version 11 or higher)
-- **Android Studio**
-- **Android SDK**
-- **Android Emulator** or physical Android device
-
-
 ## App Screenshots & Demo
 
 ### App Interface
@@ -45,10 +27,26 @@ Before running this app, make sure you have the following installed:
 ### App Demo Video
 
 <div align="center">
-  <video width="300" controls>
-    <source src="res/app_demo.mp4" type="video/mp4">
-  </video>
+  <img src="res/app_demo.gif" alt="App Demo" width="300" />
 </div>
+
+## Prerequisites
+
+Before running this app, make sure you have the following installed:
+
+### For iOS Development:
+- **Node.js** (version 18 or higher)
+- **Xcode** (latest version from App Store)
+- **CocoaPods** (`sudo gem install cocoapods`)
+- **iOS Simulator** (comes with Xcode)
+
+### For Android Development:
+- **Node.js** (version 18 or higher)
+- **Java Development Kit (JDK)** (version 11 or higher)
+- **Android Studio**
+- **Android SDK**
+- **Android Emulator** or physical Android device
+
 
 ## Project Structure
 
