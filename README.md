@@ -27,6 +27,29 @@ Before running this app, make sure you have the following installed:
 - **Android Emulator** or physical Android device
 
 
+## App Screenshots & Demo
+
+### App Interface
+
+<div align="center">
+  <img src="res/light_mode.png" alt="Light Mode Interface" width="300" />
+  <img src="res/dark_mode.png" alt="Dark Mode Interface" width="300" />
+</div>
+
+### Loading & API Connection
+
+<div align="center">
+  <img src="res/api_loading.png" alt="API Loading State" width="300" />
+</div>
+
+### App Demo Video
+
+<div align="center">
+  <video width="300" controls>
+    <source src="res/app_demo.mp4" type="video/mp4">
+  </video>
+</div>
+
 ## Project Structure
 
 ```
